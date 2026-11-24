@@ -3,6 +3,7 @@ SELECT city, COUNT(*) AS total_people
 FROM rowdata
 GROUP BY city;
 
+
 -- LIKE 
 SELECT * FROM rowdata
 WHERE name LIKE 'A%';
